@@ -19,17 +19,16 @@
   --text-light: #ffffff;
   --text-disabled:rgb(113, 113, 113);
   --link-color: #2e2e38;
-  --link-hover-color: #ffc719;
-  --main-accent-color: #ffc719;
+  --link-hover-color: #ffe600;
+  --main-accent-color: #ffe600;
   --dark-color-opacity: rgba(46, 46, 56,  0.5);
   --light-color-opacity: rgba(255, 255, 255, 0.5);
 
   /* fonts */
-  --body-font-family: 'Adobe Clean', roboto, roboto-fallback, sans-serif;
-  --heading-font-family: 'Adobe Clean Bold', roboto-condensed, roboto-condensed-fallback, sans-serif;
-  --light-font-family: 'Adobe Clean Light', roboto, roboto-fallback, sans-serif;
-  --extra-font-family: 'Adobe Clean Extra Bold', roboto, roboto-fallback, sans-serif;
-  --black-font-family: 'Adobe Clean Black', roboto, roboto-fallback, sans-serif;
+  --body-font-family: 'EYInterstate', roboto, roboto-fallback, sans-serif;
+  --heading-font-family: 'EYInterstate-Bold', roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --light-font-family: 'EYInterstate-Light', roboto, roboto-fallback, sans-serif;
+  --italic-font-family: 'EYInterstate-Italic', roboto, roboto-fallback, sans-serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
