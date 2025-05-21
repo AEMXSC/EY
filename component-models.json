@@ -167,6 +167,62 @@
             "value": "h6"
           }
         ]
+      },
+      {
+        "component": "select",
+        "name": "titleStyle",
+        "label": "Title Style",
+        "options": [
+          {
+            "name": "default",
+            "value": "default"
+          },
+          {
+            "name": "Primary",
+            "value": "primary-title"
+          },
+          {
+            "name": "Secondary",
+            "value": "secondary-title"
+          },
+          {
+            "name": "Theme",
+            "value": "theme-title"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "text",
+    "fields": [
+      {
+        "component": "text",
+        "name": "text",
+        "label": "Text"
+      },
+      {
+        "component": "select",
+        "name": "textStyle",
+        "label": "Text Style",
+        "options": [
+          {
+            "name": "default",
+            "value": "default"
+          },
+          {
+            "name": "Primary",
+            "value": "primary-text"
+          },
+          {
+            "name": "Secondary",
+            "value": "secondary-text"
+          },
+          {
+            "name": "Theme",
+            "value": "theme-text"
+          }
+        ]
       }
     ]
   },
