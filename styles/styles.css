@@ -13,15 +13,15 @@
 :root {
   /* colors */
   --background-color: #ffffff;
-  --dark-color: #131313;
+  --dark-color: #2e2e38;
   --light-color: #dcdcdc;
-  --text-color: #131313;
+  --text-color: #2e2e38;
   --text-light: #ffffff;
   --text-disabled:rgb(113, 113, 113);
-  --link-color: #131313;
+  --link-color: #2e2e38;
   --link-hover-color: #ffc719;
   --main-accent-color: #ffc719;
-  --dark-color-opacity: rgba(0, 0, 0, 0.55);
+  --dark-color-opacity: rgba(46, 46, 56,  0.5);
   --light-color-opacity: rgba(255, 255, 255, 0.5);
 
   /* fonts */
