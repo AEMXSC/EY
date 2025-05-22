@@ -164,7 +164,7 @@ function handleEnterKey(event) {
   if (event.key !== 'Enter') return;
   const inputValue = document.querySelector('.search-container input').value;
   //const url = (listOfAllPlaceholdersData.searchRedirectUrl || 'https://www.worldbank.org/en/search?q=') + inputValue;
-  const url = '/content/wknd-universal/language-masters/search-results.html?q=' + inputValue;
+  const url = '/content/ey/language-masters/search-results.html?q=' + inputValue;
   if (inputValue) window.location.href = url;
 }
 
@@ -222,7 +222,7 @@ function createSearchBox() {
     searchIcon.addEventListener('click', () => {
       if (searchInputBox.value) {
         ///window.location.href = (listOfAllPlaceholdersData.searchRedirectUrl || '<sitename>/en/search?q=') + searchInputBox.value;
-        window.location.href = '/content/wknd-universal/language-masters/search-results.html?q=' + searchInputBox.value;
+        window.location.href = '/content/ey/language-masters/search-results.html?q=' + searchInputBox.value;
       }
     });
 
@@ -230,7 +230,7 @@ function createSearchBox() {
       type: 'search',
       id: 'search-input',
       name: 'myInput',
-      placeholder: 'Search WKND',
+      placeholder: 'Search EY',
       value: '',
       autocomplete: 'off',
     });
