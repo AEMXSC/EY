@@ -1,17 +1,15 @@
 footer {
-  background-color: var(--dark-color);
   font-size: var(--body-font-size-xs);
   font-family: var(--light-font-family);
-  background-color: var(--dark-color-opacity);
-  background-color: #000;
+  background-color: var(--dark-color);
   width: 100%;
   z-index: 2;
-  color: #ffffff;
+  color: var(--text-light);
 }
 
 footer .footer > div {
   margin: auto;
-  max-width: 1200px;
+  max-width: 1500px;
   padding: 40px 24px 24px;
 }
 
@@ -26,7 +24,7 @@ footer .footer img {
 }
 
 footer .footer a {
-  color: #ffffff;
+  color: var(--light-color);
   text-decoration: none;
 }
 

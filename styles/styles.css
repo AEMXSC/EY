@@ -13,7 +13,7 @@
 :root {
   /* colors */
   --background-color: #ffffff;
-  --dark-color: #2e2e38;
+  --dark-color: #000000;
   --light-color: #dcdcdc;
   --text-color: #2e2e38;
   --text-light: #ffffff;
@@ -576,7 +576,7 @@ main > .section {
 }
 
 main > .section > div {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
   padding: 0 24px;
 }
