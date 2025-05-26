@@ -785,6 +785,7 @@ main .section[data-slide-content="true"] .default-content-wrapper [data-aue-beha
   text-align: left;
   box-sizing: border-box;
   color: var(--text-light);
+  line-height: 30px;
 }
 main .section[data-slide-content="true"] .default-content-wrapper [data-aue-label="Image"] {
   width: 40%;
