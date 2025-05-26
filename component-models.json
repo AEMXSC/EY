@@ -551,7 +551,7 @@
       {
         "component": "aem-content",
         "name": "reference",
-        "label": "Reference"
+        "label": "Fragment Reference"
       }
     ]
   },
