@@ -767,13 +767,35 @@ main .section[data-sec-inside-container="true"] .default-content-wrapper a.butto
 
 main .section[data-slide-content="true"]  {
   width: 100%;
+  display: inline-block;
   background-color: var(--light-color);
   margin: 0;
   padding: 0;
   color: var(--text-light);
 }
-main .section[data-slide-content="true"] a {
+main .section[data-slide-content="true"] .default-content-wrapper  {
+  display: inline-block;
+}
+main .section[data-slide-content="true"] .default-content-wrapper p,
+main .section[data-slide-content="true"] .default-content-wrapper div,
+main .section[data-slide-content="true"] .default-content-wrapper a,
+main .section[data-slide-content="true"] .default-content-wrapper h1,
+main .section[data-slide-content="true"] .default-content-wrapper h2,
+main .section[data-slide-content="true"] .default-content-wrapper h3,
+main .section[data-slide-content="true"] .default-content-wrapper h4,
+main .section[data-slide-content="true"] .default-content-wrapper h5,
+main .section[data-slide-content="true"] .default-content-wrapper h6 {
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+  padding: 10px 20px;
+  float: right;
+  box-sizing: border-box;
   color: var(--text-light);
+}
+main .section[data-slide-content="true"] .default-content-wrapper p[data-aue-label="Image"] {
+  float: left;
+  padding: 0;
 }
 
 
