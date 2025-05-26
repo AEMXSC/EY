@@ -765,6 +765,33 @@ main .section[data-sec-inside-container="true"] .default-content-wrapper a.butto
 
 
 
+main .section[data-slide-content="true"] .default-content-wrapper {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  font-family: var(--light-font-family);
+  position: relative;
+}
+
+main .section[data-slide-content="true"] .default-content-wrapper p,
+main .section[data-slide-content="true"] .default-content-wrapper div,
+main .section[data-slide-content="true"] .default-content-wrapper a,
+main .section[data-slide-content="true"] .default-content-wrapper h1,
+main .section[data-slide-content="true"] .default-content-wrapper h2,
+main .section[data-slide-content="true"] .default-content-wrapper h3,
+main .section[data-slide-content="true"] .default-content-wrapper h4,
+main .section[data-slide-content="true"] .default-content-wrapper h5,
+main .section[data-slide-content="true"] .default-content-wrapper h6 {
+  width: 50%;
+  display: inline-block;
+}
+
+main .section[data-slide-content="true"] .default-content-wrapper p[data-aue-label="Image"] {
+   width: 50%;
+   display: inline-block;
+}
+
+
 
 
 /* Responsive styles- start */
