@@ -776,24 +776,17 @@ main .section[data-slide-content="true"]  {
 main .section[data-slide-content="true"] .default-content-wrapper  {
   display: inline-block;
 }
-main .section[data-slide-content="true"] .default-content-wrapper p,
-main .section[data-slide-content="true"] .default-content-wrapper div,
-main .section[data-slide-content="true"] .default-content-wrapper a,
-main .section[data-slide-content="true"] .default-content-wrapper h1,
-main .section[data-slide-content="true"] .default-content-wrapper h2,
-main .section[data-slide-content="true"] .default-content-wrapper h3,
-main .section[data-slide-content="true"] .default-content-wrapper h4,
-main .section[data-slide-content="true"] .default-content-wrapper h5,
-main .section[data-slide-content="true"] .default-content-wrapper h6 {
+main .section[data-slide-content="true"] .default-content-wrapper [data-aue-behavior="component"] {
   width: 50%;
   display: inline-block;
   margin: 0;
   padding: 10px 20px;
   float: right;
+  text-align: left;
   box-sizing: border-box;
   color: var(--text-light);
 }
-main .section[data-slide-content="true"] .default-content-wrapper p[data-aue-label="Image"] {
+main .section[data-slide-content="true"] .default-content-wrapper [data-aue-label="Image"] {
   float: left;
   padding: 0;
 }
