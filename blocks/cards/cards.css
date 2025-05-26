@@ -1,18 +1,4 @@
-.section.cards-container > div > p::after {
-  content: "----------";
-  color: transparent;
-  margin-left: 20px;
-  height: .2px;
-  width: 76px;
-  margin-top: 20px;
-  background: linear-gradient(
-    to bottom,
-    transparent 8px,
-    #008edd 9px,
-    #a2cf42 1px,
-    transparent 10px
-  );
-}
+
 
 .card-link .cards a:any-link {
   text-decoration: none;
@@ -127,6 +113,7 @@
   margin: 10px 0;
   font-size: 18px;
   line-height: 26px;
+  color: var(--text-color);
 }
 .cards > ul > li .cards-card-body p.button-container {
   margin: 0;

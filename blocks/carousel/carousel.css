@@ -6,7 +6,6 @@
   margin: 0;
   position: relative;
   box-shadow: none;
-  background-color: var(--light-color);
 }
 .carousel-container .carousel-wrapper {
   padding: 0;
@@ -66,7 +65,7 @@
   width: 100%;
   aspect-ratio: 3 / 1.93;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 
@@ -87,7 +86,7 @@
   background: var(--background-color) 0 0 no-repeat padding-box;
   box-shadow: none;
   border: none;
-  border-radius: 4px;
+  border-radius: 0;
   padding: 0;
   height: auto;
   min-height: auto;

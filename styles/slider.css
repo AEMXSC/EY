@@ -9,6 +9,9 @@
 .carousel-container > .default-content-wrapper {
   flex: 1;
   padding: 0;
+  margin: 15px 0;
+  padding: 0 5%;
+  width: 100%;
 }
 
 
@@ -25,11 +28,11 @@
   background-color: var(--background-color);
   border: none;
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 30px;
   right: 10%;
   cursor: pointer;
   position: absolute;
-  top: 7%;
+  top: 12%;
 }
 
 .carousel-container .button-container button:disabled {
@@ -114,7 +117,7 @@ html[dir="rtl"] .section > div.carousel-wrapper {
   
 .carousel > ul > li > .cards-card-image {
   background-color: #fcfcfc;
-  border-radius: 10px;
+  border-radius: 0;
   aspect-ratio: auto;
   flex-direction: column;
   display: flex;

@@ -1,16 +1,16 @@
 footer {
   font-size: var(--body-font-size-xs);
   font-family: var(--light-font-family);
-  background-color: var(--dark-color);
+  background-color: var(--background-color);
   width: 100%;
   z-index: 2;
-  color: var(--text-light);
+  color: var(--text-color);
 }
 
 footer .footer > div {
   margin: auto;
   max-width: 1500px;
-  padding: 40px 24px 24px;
+  padding: 40px 50px 24px;
 }
 
 footer .footer p {
@@ -18,7 +18,7 @@ footer .footer p {
 }
 
 footer .footer img {
-  width: 100px;
+  width: 70px;
   height: auto;
   margin-bottom: 20px;
 }
@@ -34,6 +34,6 @@ footer .footer a:hover {
 
 @media (width >= 900px) {
   footer .footer > div {
-    padding: 50px 32px;
+    padding: 50px 50px;
   }
 }
