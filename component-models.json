@@ -469,6 +469,20 @@
             "bg-image"
           ]
         }
+      },
+      {
+        "component": "boolean",
+        "valueType": "boolean",
+        "name": "slide-content",
+        "label": "Slide content",
+        "condition": {
+          "!=": [
+            {
+              "var": "style"
+            },
+            "bg-image"
+          ]
+        }
       }
     ]
   },
