@@ -765,6 +765,17 @@ main .section[data-sec-inside-container="true"] .default-content-wrapper a.butto
 
 
 
+main .section[data-slide-content="true"]  {
+  width: 100%;
+  background-color: var(--light-color);
+  margin: 0;
+  padding: 0;
+  color: var(--text-light);
+}
+main .section[data-slide-content="true"] a {
+  color: var(--text-light);
+}
+
 
 
 /* Responsive styles- start */
