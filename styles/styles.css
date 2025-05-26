@@ -770,14 +770,14 @@ main .section[data-slide-content="true"]  {
   display: inline-block;
   background-color: var(--light-color);
   margin: 0;
-  padding: 0;
   color: var(--text-light);
+  padding: 5% 0;
 }
 main .section[data-slide-content="true"] .default-content-wrapper  {
   display: inline-block;
 }
 main .section[data-slide-content="true"] .default-content-wrapper [data-aue-behavior="component"] {
-  width: 50%;
+  width: 60%;
   display: inline-block;
   margin: 0;
   padding: 10px 20px;
@@ -787,10 +787,13 @@ main .section[data-slide-content="true"] .default-content-wrapper [data-aue-beha
   color: var(--text-light);
 }
 main .section[data-slide-content="true"] .default-content-wrapper [data-aue-label="Image"] {
+  width: 40%;
   float: left;
   padding: 0;
 }
-
+main .section[data-slide-content="true"] .default-content-wrapper a {
+  color: var(--text-light);
+}
 
 
 /* Responsive styles- start */
