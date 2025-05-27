@@ -92,8 +92,8 @@
         "name": "js-files",
         "multi": true,
         "value": "",
-        "label": "JS Library URL(s)",
-        "description": "List of js libraries to include under head section of the page"
+        "label": "Analytics Library",
+        "description": "List of libraries to include under head section of the page"
       },
       {
         "component": "text",
