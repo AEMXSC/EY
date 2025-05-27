@@ -783,7 +783,7 @@ main .section[data-slide-content="true"] .default-content-wrapper * {
   display: inline-block;
   margin: 0;
   padding: 10px 50px 10px 0;
-  float: right;
+  float: left;
   text-align: left;
   box-sizing: border-box;
   color: var(--text-light);
@@ -844,7 +844,6 @@ main .section[data-slide-content="true"] .default-content-wrapper a {
   color: var(--text-light);
   cursor: pointer;
 }
-
 
 main .section[data-slide-content="true"] .default-content-wrapper div[data-aue-behavior="component"] p {
   text-decoration: none;
