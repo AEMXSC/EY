@@ -811,6 +811,9 @@ main .section[data-slide-content="true"] .default-content-wrapper p:first-of-typ
 main .section[data-slide-content="true"] .default-content-wrapper p:first-of-type img  {
   width: 100%;
   padding: 0;
+  min-height: 500px;
+  object-fit: cover;
+  object-position: right;
 }
 main .section[data-slide-content="true"] .default-content-wrapper p:nth-of-type(2) {
   color: var(--main-accent-color);
