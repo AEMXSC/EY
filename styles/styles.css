@@ -846,6 +846,16 @@ main .section[data-slide-content="true"] .default-content-wrapper a {
 }
 
 
+main .section[data-slide-content="true"] .default-content-wrapper [data-aue-type="component"] p {
+  text-decoration: none;
+  font-size: initial;
+  cursor: none;
+  width: 100%;
+  float: initial;
+}
+
+
+
 /* Responsive styles- start */
 @media (max-width: 1024px) {
   :root {
