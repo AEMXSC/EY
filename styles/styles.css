@@ -848,7 +848,7 @@ main .section[data-slide-content="true"] .default-content-wrapper a {
 main .section[data-slide-content="true"] .default-content-wrapper div[data-aue-behavior="component"] p {
   text-decoration: none;
   font-size: initial;
-  cursor: none;
+  cursor: initial;
   width: 100%;
   float: initial;
 }
