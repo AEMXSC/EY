@@ -12,6 +12,7 @@
 
 :root {
   /* colors */
+  /*background-color: var(--background-color, #ffffff);*/
   --background-color: #ffffff;
   --dark-color: #1A1A24;
   --light-color: #2E2E38;
@@ -314,12 +315,12 @@ body.green-theme {
 
 header {
   height: var(--nav-height);
-  min-height: 90px;
-  position: fixed;
+  min-height: 77px;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 111;
+  z-index: 11111;
 }
 
 header .header,
