@@ -814,6 +814,7 @@ main .section[data-slide-content="true"] .default-content-wrapper p:first-of-typ
 }
 main .section[data-slide-content="true"] .default-content-wrapper p:nth-of-type(2) {
   color: var(--main-accent-color);
+  font-size: 20px;
 }
 main .section[data-slide-content="true"] .default-content-wrapper p:last-of-type {
   text-decoration: underline;
@@ -855,6 +856,7 @@ main .section[data-slide-content="true"] .default-content-wrapper div[data-aue-b
 }
 main .section[data-slide-content="true"] .default-content-wrapper div[data-aue-type="richtext"]:first-of-type p {
   color: var(--main-accent-color);
+  font-size: 20px;
 }
 
 
