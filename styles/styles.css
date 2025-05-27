@@ -853,6 +853,9 @@ main .section[data-slide-content="true"] .default-content-wrapper div[data-aue-b
   width: 100%;
   float: initial;
 }
+main .section[data-slide-content="true"] .default-content-wrapper div[data-aue-type="richtext"]:first-of-type p {
+  color: var(--main-accent-color);
+}
 
 
 
