@@ -772,7 +772,7 @@ main .section[data-slide-content="true"]  {
   background-color: var(--dark-color);
   margin: 0;
   color: var(--text-light);
-  padding: 70px 50px;
+  padding: 100px 50px;
   border-top: 10px solid #2e2e38;
   border-bottom: 10px solid #2e2e38;
 }
