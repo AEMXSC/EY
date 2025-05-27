@@ -772,29 +772,77 @@ main .section[data-slide-content="true"]  {
   background-color: var(--dark-color);
   margin: 0;
   color: var(--text-light);
-  padding: 5% 0;
+  padding: 70px 50px;
+  border: 20px solid #2e2e38;
 }
 main .section[data-slide-content="true"] .default-content-wrapper  {
   display: inline-block;
 }
-main .section[data-slide-content="true"] .default-content-wrapper [data-aue-behavior="component"] {
+main .section[data-slide-content="true"] .default-content-wrapper * {
   width: 60%;
   display: inline-block;
   margin: 0;
-  padding: 10px 40px;
+  padding: 10px 50px 10px 0;
   float: right;
   text-align: left;
   box-sizing: border-box;
   color: var(--text-light);
   line-height: 30px;
 }
-main .section[data-slide-content="true"] .default-content-wrapper [data-aue-label="Image"] {
+main .section[data-slide-content="true"] .default-content-wrapper p:first-of-type {
   width: 40%;
-  float: left;
+  float: right;
   padding: 0;
+}
+main .section[data-slide-content="true"] .default-content-wrapper p:first-of-type picture  {
+  width: 100%;
+  padding: 0;
+}
+main .section[data-slide-content="true"] .default-content-wrapper p:first-of-type picture::before  {
+  display: none;
+}
+main .section[data-slide-content="true"] .default-content-wrapper p:first-of-type picture source  {
+  height: 0;
+  width: 0;
+  padding: 0;
+  line-height: 0;
+}
+main .section[data-slide-content="true"] .default-content-wrapper p:first-of-type img  {
+  width: 100%;
+  padding: 0;
+}
+main .section[data-slide-content="true"] .default-content-wrapper p:nth-of-type(2) {
+  color: var(--main-accent-color);
+}
+main .section[data-slide-content="true"] .default-content-wrapper p:last-of-type {
+  text-decoration: underline;
+  font-size: 16px;
+  cursor: pointer;
+}
+main .section[data-slide-content="true"] .default-content-wrapper h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+main .section[data-slide-content="true"] .default-content-wrapper h3 {
+  font-family: "Georgia";
+  font-weight: 400;
+}
+
+main .section[data-slide-content="true"] .default-content-wrapper h3:before {
+  content: "\f10d";
+  width: 40px;
+  height: 40px;
+  font-family: "Font Awesome 5 Solid";
+  font-size: 35px;
+  font-weight: 400;
+  color: var(--main-accent-color);
+  display: block;
+  padding: 0;
+  margin: 3% 0 10px;
 }
 main .section[data-slide-content="true"] .default-content-wrapper a {
   color: var(--text-light);
+  cursor: pointer;
 }
 
 
